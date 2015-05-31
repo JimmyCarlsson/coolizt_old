@@ -34,6 +34,8 @@ GEM
     colorize (0.7.7)
     diff-lcs (1.2.5)
     erubis (2.7.0)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
     hike (1.2.3)
     i18n (0.7.0)
     mail (2.5.4)
@@ -106,6 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
+  factory_girl
   rails (= 4.0.4)
   rails-api
   rspec
